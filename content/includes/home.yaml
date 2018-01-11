@@ -1,6 +1,6 @@
 hero:
-  title@: Building the future web, together.
-  content@: The AMP Project is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+  title@: Building fast, compelling web pages.
+  content@: AMP is an open-source library that you can use to create websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
   cta@: Learn about AMP
   cta_url: /content/learn/overview.yaml
   secondary_cta@: Start Building
@@ -30,27 +30,6 @@ experience:
   phone_img_base: /static/img/home/home_phone_ebay
   lines_img: /static/img/home/lines2.svg
 
-success_stories:
-  title@: A path to success
-  cards:
-    - quote@: “If our site takes a long time to load, it doesn’t matter how great our journalism is, some people will leave the page before they see what’s there.”
-      img: /static/img/home/wapo_logo.png
-      img_height: 197
-      img_width: 1280
-      url: /content/learn/case-studies/washingtonpost.md
-      class: wapo
-    - quote@: “AMP was the perfect addition to our business, giving us a new level of impact for our e-commerce clients.”
-      img_height: 135
-      img_width: 902
-      img: /static/img/case-studies/wompmobile_logo.png
-      url: /content/learn/case-studies/wompmobile.md
-      class: wired
-    - quote@: “Across Teads’ publisher portfolio, video ads perform significantly better on AMP pages than on the traditional mobile web.”
-      img_height: 28
-      img_width: 75
-      img: /static/img/home/teads_logo.svg
-      url: /content/learn/case-studies/teads.md
-      class: teads
 
 large_cta:
   title@: Learn how to build AMP pages and AMP Ads

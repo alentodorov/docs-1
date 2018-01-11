@@ -1,4 +1,4 @@
-$title@: Overview
+$title@: What is AMP
 $titles:
   breadcrumb@: What is AMP
 $order: 0
@@ -14,8 +14,8 @@ hero:
   line1_img: herolines1.svg
   line2_img: herolines2.svg
   phone_img_base: /static/img/about/overview/what_phone
-  cta@: Play Video
-  cta_url: '#video'
+  content: The AMP ecosystem includes 25 million domains, 100+ technology providers, and leading platforms, that span the areas of publishing, advertising, e-commerce,  local and small businesses, and more!<p>AMP is an HTML format that provides a straightforward way to create web pages that are compelling, smooth, and load near instantaneously for your users.</p><p>AMP builds on existing skillsets and frameworks that you use to create your sites.</p>
+
 
 core:
   title: AMP pages are built with 3 core components.

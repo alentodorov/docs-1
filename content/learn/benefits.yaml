@@ -1,11 +1,8 @@
-$title@: AMP for Publishers
-class: about-who-vertical
-$order: 0
-$parent: /content/learn/who-uses-amp.yaml
+$title@: Benefits
+class: about-benefits
+$view: /views/about-benefits.html
 components:
   - carousel
-
-vertical_class: publishers
 
 hero:
   title@: Improve user engagement with fast, compelling experiences.
@@ -16,37 +13,9 @@ hero:
   triangle_img: hero_triangle.png
   triangle_img_width: 1424
   triangle_img_height: 2095
-  hero_icon: publishers/publisher_icon_intro.svg
-  hero_icon_width: 76
-  hero_icon_height: 60
-
-  users:
-    - name: The New York Times
-      logo: publishers/nyt_logo.svg
-      logo_width: 306
-      logo_height: 40
-      class: nyt
-
-    - name: Globo
-      logo: publishers/globo_logo.svg
-      logo_width: 57
-      logo_height: 33
-      class: globo
-
-    - name: Washington Post
-      logo: publishers/wapo_logo.png
-      logo_width: 1280
-      logo_height: 197
-      class: wapo
-
-    - name: Wired
-      logo: publishers/wired_logo.png
-      logo_width: 1298
-      logo_height: 263
-      class: wired
 
 why:
-  title@: How AMP can help publishers
+  title@: How AMP can help you
   reasons:
     - title@: Enable compelling, consistently fast experiences
       paragraph@: AMP speeds up content, keeping users engaged irrespective of where they start their journey -- on the publisher’s own website or from platforms that link to AMP pages like Twitter, Google and Pinterest. With faster and more secure ads, AMP ads deliver great advertising experiences too, ensuring every interaction with a publisher’s brand is a compelling one.
@@ -59,12 +28,6 @@ why:
     - title@: Reduce complexity in your operations.
       paragraph@: Building AMP pages is simple and straightforward. You can often convert your entire archive in days especially if you use a popular CMS such as Wordpress and Drupal. Your teams do not need any special skills nor worry about optimizing your code for each distribution platform as the AMP format is fully portable and AMP pages are consistently fast no matter how a user gets to them.  Similarly, AMP ads may be built once and run across all pages, including non-AMP pages.
       icon: publishers/publisher_icon_business.svg
-
-case:
-  title@: See how other publishers have found success with AMP
-  cases:
-    - filename: washingtonpost.md
-    - filename: wired.md
 
 cta:
   title@: Get Started Building
