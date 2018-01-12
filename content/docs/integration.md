@@ -1,6 +1,6 @@
 ---
-$title@: Reference
-$order: 11
+$title@: Integration
+$order: 8
 $parent: /content/docs/build.md
 $view: /views/doc_grid.html
 

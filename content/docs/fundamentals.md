@@ -1,6 +1,6 @@
 ---
-$title@: Tutorials
-$order: 1
+$title@: Fundamentals
+$order: 2
 $parent: /content/docs/build.md
 $view: /views/doc_grid.html
 

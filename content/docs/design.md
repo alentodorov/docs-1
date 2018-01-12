@@ -1,6 +1,6 @@
 ---
-$title@: Reference
-$order: 11
+$title@: Design & Layout
+$order: 3
 $parent: /content/docs/build.md
 $view: /views/doc_grid.html
 

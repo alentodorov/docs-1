@@ -1,6 +1,6 @@
 ---
 $title@: Contribute
-$order: 5
+$order: 10
 $parent: /content/docs/build.md
 $view: /views/doc_grid.html
 

@@ -1,6 +1,6 @@
 ---
-$title@: Reference
-$order: 11
+$title@: Advertising & Analytics
+$order: 6
 $parent: /content/docs/build.md
 $view: /views/doc_grid.html
 

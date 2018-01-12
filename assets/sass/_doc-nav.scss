@@ -85,6 +85,7 @@
     margin-right: 10px;
     position: relative;
     display: block;
+    letter-spacing: 0;
 
     @extend %text-base;
     @extend %text-small;
@@ -99,7 +100,7 @@
   li {
 
     a {
-      padding: 15px 0;
+      padding: 10px 0;
     }
 
     .open {
@@ -121,7 +122,12 @@
   li.top-level {
 
     > a {
-      padding-left: 20px;
+      padding-left: 10px;
+    }
+
+    > a.section-name {
+      color: $color-ampblue;
+      font-size:  18px;
     }
 
     &.expandable {

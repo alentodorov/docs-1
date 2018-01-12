@@ -1,6 +1,6 @@
 ---
 $title: Create your first AMP page
-$order: 0
+$order: 1
 numbered: 1
 ---
 

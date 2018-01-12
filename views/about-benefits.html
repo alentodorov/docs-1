@@ -1,8 +1,5 @@
 {% extends "/views/base.html" %}
 
-{% set navmarkup %}
-{% include "/views/partials/breadcrumb-nav.html" %}
-{% endset %}
 
 {% block main %}
   <div class="about-who-block {{doc.vertical_class}}">
@@ -50,23 +47,9 @@
           </amp-img>
           {% endif %}
         </div>
-        <p class="label">{{doc.title}}</p>
         <div class="tablet-wrapper">
           <h1 class="title">{{_(doc.hero.title)}}</h1>
           <p class="small paragraph">{{_(doc.hero.paragraph)}}</p>
-        </div>
-        <div class="example-users">
-          {% for user in doc.hero.users %}
-            <div class="example-user-logo{% if user.class %} {{user.class}}{% endif %}">
-              <amp-img
-                  noloading
-                  width={{user.logo_width}}
-                  height={{user.logo_height}}
-                  layout=responsive
-                  src="/static/img/about/who-use-amp/{{user.logo}}">
-              </amp-img>
-            </div>
-          {% endfor %}
         </div>
       </section>
       <section class="why-use">
