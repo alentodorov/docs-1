@@ -3,17 +3,18 @@ menu:
     copy@: About
     collection: learn
     children:
-      - href: /content/learn/benefits.html
-        copy@: "Benefits of AMP"
+      - href: /content/learn/overview.html
+        copy@: "What is AMP?"
+        collection: learn/about
       - href: /content/learn/about-how.yaml
         copy@: "How AMP Works"
-      - href: /content/learn/amp-design-principles.yaml
-        copy@: "Design Principles"
-      - href: /content/learn/amp-design-principles.yaml
-        copy@: "Where to use AMP"
-      - href: /content/learn/who-uses-amp.yaml
-        copy@: "Who uses AMP"
-        collection: learn/who
+      - href: /content/learn/use_cases.yaml
+        copy@: "Use Cases"
+      - href: /content/learn/case-studies.html
+        copy@: "Case Studies"
+        collection: learn/case-studies/category
+      - href: /content/learn/showcases.html
+        copy@: "Showcase"
   - href: /content/docs/build.md
     copy@: Docs
     collection: docs
@@ -22,6 +23,8 @@ menu:
         copy@: "Guides & Tutorials"
       - href: https://ampbyexample.com/
         copy@: "Examples"
+      - href: /content/reference/components.md
+        copy@: "Reference"
       - href: https://youtube.com/TheAMPProject
         copy@: "Videos"
   - href: /content/reference/components.md
