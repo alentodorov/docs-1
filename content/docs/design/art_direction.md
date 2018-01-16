@@ -1,6 +1,6 @@
 ---
 $title: Responsive images with srcset, sizes & heights
-$order: 4
+$order: 5
 toc: true
 components:
   - iframe

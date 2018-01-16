@@ -1,6 +1,6 @@
 ---
 $title: Experimental features
-$order: 5
+$order: 1
 ---
 
 [AMP experimental components](https://github.com/ampproject/amphtml/tree/master/tools/experiments)

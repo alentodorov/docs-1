@@ -7,7 +7,7 @@ var newYaml;
 function addAds() {
 
   // Read in amp-ad file, and the ad vendors
-  var ampAd = fs.readFileSync('../content/docs/reference/components/ads-analytics/amp-ad.md', { encoding: 'utf8' });
+  var ampAd = fs.readFileSync('../content/reference/components/ads-analytics/amp-ad.md', { encoding: 'utf8' });
   var supportPortion = (ampAd.split('## Supported ad networks')[1]).split('##')[0].trim();
   var vendorNames = supportPortion.split('\n');
 

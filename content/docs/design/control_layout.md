@@ -1,6 +1,6 @@
 ---
 $title: Layout & media queries
-$order: 1
+$order: 3
 toc: true
 ---
 [TOC]

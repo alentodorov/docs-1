@@ -7,7 +7,7 @@
     },
     {
         "title": "AMP HTML Specification",
-        "order": 2,
+        "order": 1,
         "from": "spec/amp-html-format.md",
         "to": "docs/fundamentals/spec.md"
     },
@@ -19,15 +19,15 @@
     },
     {
         "title": "AMP HTML Layout System",
-        "order": 4,
+        "order": 0,
         "from": "spec/amp-html-layout.md",
-        "to": "docs/fundamentals/spec/amp-html-layout.md"
+        "to": "docs/design/amp-html-layout.md"
     },
     {
         "title": "Actions and events in AMP",
         "order": 8,
         "from": "spec/amp-actions-and-events.md",
-        "to": "docs/reference/amp-actions-and-events.md"
+        "to": "docs/interaction_dynamic/amp-actions-and-events.md"
     },
     {
         "title": "Debug AMP Cache issues",

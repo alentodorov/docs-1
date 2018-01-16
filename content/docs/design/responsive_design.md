@@ -1,6 +1,6 @@
 ---
 $title: Create responsive AMP pages
-$order: 5
+$order: 2
 toc: true
 components:
   - iframe
