@@ -1,5 +1,8 @@
 $title@: Benefits
+$titles:
+  breadcrumb@: Benefits
 class: about-benefits
+$parent: /content/learn/overview.yaml
 $view: /views/about-benefits.html
 components:
   - carousel

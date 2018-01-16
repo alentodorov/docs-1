@@ -1,5 +1,8 @@
 {% extends "/views/base.html" %}
 
+{% set navmarkup %}
+{% include "/views/partials/breadcrumb-nav.html" %}
+{% endset %}
 
 {% block main %}
   <div class="about-who-block {{doc.vertical_class}}">
