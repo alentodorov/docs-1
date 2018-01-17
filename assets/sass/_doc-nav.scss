@@ -71,6 +71,15 @@
     list-style-type: none;
   }
 
+  li.tutorial > a.section-name::before {
+    content: url('/static/img/symbols/tutorial.svg');
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -4px;
+  }
+
   li {
     background: none;
     border: none;

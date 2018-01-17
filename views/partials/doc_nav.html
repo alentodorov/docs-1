@@ -64,7 +64,14 @@
   {% else %}
     <{{tag(item)}}>
       {% for child in docs %}
-        {{render_item(child, "sub-level")}}
+        {% if not child.tutorial %}
+          {{render_item(child, "sub-level")}}
+        {% endif %}
+      {% endfor %}
+      {% for child in docs %}
+        {% if child.tutorial %}
+            {{render_item(child, "sub-level tutorial")}}
+        {% endif %}
       {% endfor %}
     </{{tag(item)}}>
   {% endif %}
