@@ -1,6 +1,39 @@
 blogs:
 
 - type: Blog
+  title: "Measuring AMP Performance"
+  id: measuring-amp-performance
+  author: amphtml
+  role: 
+  origin: "https://amphtml.wordpress.com/2018/01/17/measuring-amp-performance/amp/"
+  excerpt: "Editor’s note: The following was posted on Medium by Martin Schierle, Mobile Solutions Consultant, Google. TL;DR: Whenever performance testing AMP, keep in mind that a test from origin will include potentially suboptimal server settings like bad cache headers or missing image optimizations. Also the biggest speed gain (near instant load through prerendering) will not be reflected in [&#8230;]"
+  avatar: http://1.gravatar.com/avatar/42ecb1ea497ca9d0ffe1e406cae70e27?s=96&d=identicon&r=G
+  datedata: 2018-01-17T05:00:32-08:00
+  date: "January 17, 2018"
+
+- type: Blog
+  title: "Improving URLs for AMP pages"
+  id: improving-urls-for-amp-pages
+  author: amphtml
+  role: 
+  origin: "https://amphtml.wordpress.com/2018/01/09/improving-urls-for-amp-pages/amp/"
+  excerpt: "TL;DR: We are making changes to how AMP works in platforms such as Google Search that will enable linked pages to appear under publishers’ URLs instead of the google.com/amp URL space while maintaining the performance and privacy benefits of AMP Cache serving. When we first launched AMP in Google Search we made a big trade-off: [&#8230;]"
+  avatar: http://1.gravatar.com/avatar/42ecb1ea497ca9d0ffe1e406cae70e27?s=96&d=identicon&r=G
+  datedata: 2018-01-08T18:02:48-08:00
+  date: "January 8, 2018"
+
+- type: Blog
+  title: "Supporting open source sustainability"
+  id: supporting-open-source-sustainability
+  author: amphtml
+  role: 
+  origin: "https://amphtml.wordpress.com/2018/01/05/supporting-open-source-sustainability/amp/"
+  excerpt: "Happy New Year everyone! We on the AMP team have a New Year’s resolution that we hope will be widely shared through the industry: We want to ensure the open source projects we depend on can be maintained in a way that is sustainable for their respective core teams. As an open source project itself, [&#8230;]"
+  avatar: http://1.gravatar.com/avatar/42ecb1ea497ca9d0ffe1e406cae70e27?s=96&d=identicon&r=G
+  datedata: 2018-01-05T08:58:38-08:00
+  date: "January 5, 2018"
+
+- type: Blog
   title: "Twitter uses AMP to improve reading experience, enables publishers to understand their audience"
   id: twitter-uses-amp-to-improve-reading-experience-enables-publishers-to-understand-their-audience
   author: Ben Ward
@@ -32,36 +65,3 @@ blogs:
   avatar: http://1.gravatar.com/avatar/42ecb1ea497ca9d0ffe1e406cae70e27?s=96&d=identicon&r=G
   datedata: 2017-11-28T09:49:35-08:00
   date: "November 28, 2017"
-
-- type: Blog
-  title: "AMP Conf 2018: Turning Amsterdam into AMPsterdam"
-  id: amp-conf-2018-turning-amsterdam-into-ampsterdam
-  author: Matt Ludwig
-  role:  AMP Project Marketing Lead, Google
-  origin: "https://amphtml.wordpress.com/2017/11/27/amp-conf-2018-turning-amsterdam-into-ampsterdam/amp/"
-  excerpt: "Last year over 300 developers came together to learn and share about the latest in AMP at AMP Conf in NYC. Since then we’ve had many new developments and uses of AMP emerge, from e-commerce functionality, to building canonically with AMP, to using AMP pages within a Progressive Web App. To share all the latest [&#8230;]"
-  avatar: http://1.gravatar.com/avatar/42ecb1ea497ca9d0ffe1e406cae70e27?s=96&d=identicon&r=G
-  datedata: 2017-11-27T13:46:50-08:00
-  date: "November 27, 2017"
-
-- type: Blog
-  title: "AMP: Two years of user-first webpages"
-  id: amp-two-years-of-user-first-webpages
-  author: David Besbris
-  role:  VP Google Search, AMP Project Lead at Google
-  origin: "https://amphtml.wordpress.com/2017/10/19/amp-two-years-of-user-first-webpages/amp/"
-  excerpt: "It’s hard to believe it’s been two years since publishers and platforms came together to launch the open source Accelerated Mobile Pages (AMP) Project. Speed and user experience remain more important than ever across the web, with 53% of mobile site visits abandoned for pages taking longer than 3 seconds to load. In two years [&#8230;]"
-  avatar: http://1.gravatar.com/avatar/42ecb1ea497ca9d0ffe1e406cae70e27?s=96&d=identicon&r=G
-  datedata: 2017-10-19T10:19:44-07:00
-  date: "October 19, 2017"
-
-- type: Blog
-  title: "Start fast with new AMP Start templates"
-  id: start-fast-with-new-amp-start-templates
-  author: amphtml
-  role: 
-  origin: "https://amphtml.wordpress.com/2017/10/13/start-fast-with-new-amp-start-templates/amp/"
-  excerpt: "Two of the core pillars of the Accelerated Mobile Pages (AMP) Project are speed and a great user experience on the web. That said, the AMP Project also cares about making the process of building webpages faster and easier. That’s why we created AMP Start, a library of fully-featured templates and common page elements built [&#8230;]"
-  avatar: http://1.gravatar.com/avatar/42ecb1ea497ca9d0ffe1e406cae70e27?s=96&d=identicon&r=G
-  datedata: 2017-10-13T13:01:07-07:00
-  date: "October 13, 2017"

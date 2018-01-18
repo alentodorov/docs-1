@@ -31,7 +31,7 @@
     font-size: 40px;
     text-transform: none;
     font-weight: 200;
-    
+
     }
 
     a:lang(it),
@@ -279,6 +279,14 @@
     }
 
   }
+
+  hr {
+    height: 1px;
+    background: #ededed;
+    border: 0;
+    margin: 0 1em;
+  }
+
 }
 
 .doc-footer {

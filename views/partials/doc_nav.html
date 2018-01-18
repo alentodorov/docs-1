@@ -63,11 +63,19 @@
     {% endfor %}
   {% else %}
     <{{tag(item)}}>
+      {% set hasTutorials = [] %}
       {% for child in docs %}
         {% if not child.tutorial %}
           {{render_item(child, "sub-level")}}
+        {% else %}
+          {% do hasTutorials.append(1) %}
         {% endif %}
       {% endfor %}
+
+      {% if hasTutorials  %}
+      <hr />
+      {% endif %}
+
       {% for child in docs %}
         {% if child.tutorial %}
             {{render_item(child, "sub-level tutorial")}}
