@@ -20,3 +20,9 @@ content/docs/troubleshooting/amp-cache-debugging.md
 content/docs/fundamentals/amp-cors-requests.md
 content/reference/components/**/*.md
 content/support/developer/get_support.md
+content/docs/reference/amp-actions-and-events.md
+content/docs/reference/spec.md
+content/docs/reference/spec/*.md
+content/docs/reference/components/**/*.md
+content/docs/guides/amp-cors-requests.md
+content/docs/guides/amp-cache-debugging.md
