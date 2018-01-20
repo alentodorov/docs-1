@@ -1,6 +1,6 @@
 body.about-benefits {
 
-  .about-who-block {
+  .about-benefits-block {
     position: relative;
     overflow: hidden;
 
@@ -25,6 +25,10 @@ body.about-benefits {
       display: block;
     }
 
+    p.small {
+      margin-bottom: 20px;
+    }
+
     .small a {
       font-size: 16px;
       text-transform: none;
@@ -38,7 +42,7 @@ body.about-benefits {
 
   .hero {
     position: relative;
-    padding: 100px 5% 200px 5%;
+    padding: 100px 5% 70px 5%;
 
     .hero-images {
       position: absolute;
@@ -67,12 +71,7 @@ body.about-benefits {
     .title {
       position: relative;
       max-width: 700px;
-      margin-bottom: 50px;
-    }
-
-    .paragraph {
-      max-width: 600px;
-      margin-bottom: 70px;
+      margin-bottom: 30px;
     }
 
     .icon {
@@ -93,51 +92,6 @@ body.about-benefits {
         flex: 0 0 18%;
         position: relative;
 
-        &.nyt {
-          flex: 0 0 26%;
-        }
-
-        &.globo {
-          flex: 0 0 10%;
-        }
-
-        &.wapo {
-          flex: 0 0 22%;
-        }
-
-        &.wired {
-          flex: 0 0 14%;
-        }
-
-        &.sharethrough {
-          flex: 0 0 28%;
-          top: -14px;
-        }
-
-        &.triplelift {
-          flex: 0 0 16%;
-        }
-
-        &.teads {
-          flex: 0 0 10%;
-        }
-
-        &.indexexchange {
-          top: -8px;
-        }
-
-        &.google {
-          flex: 0 0 15%;
-        }
-
-        &.doubleclick {
-          flex: 0 0 18%;
-        }
-
-        &.cloudflare {
-          flex: 0 0 25%;
-          top: -8px;
-        }
       }
     }
   }
@@ -153,6 +107,7 @@ body.about-benefits {
     .reasons.desktop {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
 
       .reason {
         flex: 0 0 27%;
@@ -210,7 +165,7 @@ body.about-benefits {
     }
   }
 
-  .about-who-block.centered {
+  .about-benefits-block.centered {
     &::before {
       top: -50px;
     }
@@ -386,7 +341,7 @@ body.about-benefits {
       color: $color-white;
     }
 
-    .about-who-block {
+    .about-benefits-block {
       &::before {
         background: $gradient-anglebold;
         content: '';
@@ -612,7 +567,7 @@ body.about-benefits {
       }
     }
 
-    .about-who-block.centered {
+    .about-benefits-block.centered {
       .hero .example-users {
         left: 3%;
         max-width: 450px;

@@ -5,54 +5,13 @@
 {% endset %}
 
 {% block main %}
-  <div class="about-who-block {{doc.vertical_class}}">
+  <div class="about-benefits-block {{doc.class}}">
     {{ navmarkup|safe }}
     <div class="container xl">
       <section class="hero">
-          {% if doc.hero.hero_icon %}
-            <amp-img class="icon"
-                noloading
-                width="{{doc.hero.hero_icon_width}}"
-                height="{{doc.hero.hero_icon_height}}"
-                layout=responsive
-                src="/static/img/about/who-use-amp/{{doc.hero.hero_icon}}">
-            </amp-img>
-          {% endif %}
-        <div class="hero-images desktop-only">
-          {% if doc.hero.triangle_img %}
-          <amp-img class="triangle"
-              noloading
-              width="{{doc.hero.triangle_img_width}}"
-              height="{{doc.hero.triangle_img_height}}"
-              layout=responsive
-              src="/static/img/about/who-use-amp/{{doc.hero.triangle_img}}">
-          </amp-img>
-          {% endif %}
-          {% if doc.hero.lines_img %}
-          <amp-img class="lines"
-              noloading
-              width="{{doc.hero.lines_img_width}}"
-              height="{{doc.hero.lines_img_height}}"
-              layout=responsive
-              src="/static/img/about/who-use-amp/{{doc.hero.lines_img}}">
-          </amp-img>
-          {% endif %}
-          {% if doc.hero.hero_img_base %}
-          <amp-img class="phones"
-              noloading
-              width="{{doc.hero.hero_img_width}}"
-              height="{{doc.hero.hero_img_height}}"
-              layout=responsive
-                srcset="{{doc.hero.hero_img_base + '.png ' ~ doc.hero.hero_img_width ~ 'w'}},
-                        {{doc.hero.hero_img_base + '@1_5x.png ' ~ (doc.hero.hero_img_width * 0.66) ~ 'w'}},
-                        {{doc.hero.hero_img_base + '@1x.png ' ~ (doc.hero.hero_img_width * 0.5) ~ 'w'}}"
-                src="{{doc.hero.hero_img_base + '.png'}}">
-          </amp-img>
-          {% endif %}
-        </div>
         <div class="tablet-wrapper">
-          <h1 class="title">{{_(doc.hero.title)}}</h1>
-          <p class="small paragraph">{{_(doc.hero.paragraph)}}</p>
+          <h1 class="title">{{_(doc.intro.title)}}</h1>
+          <p class="small paragraph">{{_(doc.intro.paragraph)}}</p>
         </div>
       </section>
       <section class="why-use">
@@ -126,47 +85,6 @@
         </div>
       </section>
 
-      {% if doc.points %}
-        {% with points = doc.points %}
-          {% include "/views/partials/points.html" %}
-        {% endwith %}
-      {% endif %}
-
-      {% if doc.case %}
-        <section class="case-study">
-          <h3>{{_(doc.case.title)}}</h3>
-          <div class="card-container grid case desktop">
-            {% for case in doc.case.cases %}
-              {% set locale = doc.locale %}
-              {% with doc = g.doc('/content/learn/case-studies/' ~ case.filename, locale=doc.locale), isCase = true %}
-                {% include "/views/partials/grid-card.html" %}
-              {% endwith %}
-            {% endfor %}
-          </div>
-          <amp-carousel
-              height="430"
-              layout="fixed-height"
-              type="slides">
-          {% for case in doc.case.cases %}
-            <div class="card-container grid case">
-            {% with doc = g.doc('/content/learn/case-studies/' ~ case.filename, locale=doc.locale), isCase = true %}
-              {% include "/views/partials/grid-card.html" %}
-            {% endwith %}
-            </div>
-          {% endfor %}
-          </amp-carousel>
-
-          {% if doc.case.lines_img %}
-            <amp-img class="lines"
-                noloading
-                width={{doc.case.lines_img_width}}
-                height={{doc.case.lines_img_height}}
-                layout=responsive
-                src="/static/img/about/who-use-amp/{{doc.case.lines_img}}">
-            </amp-img>
-          {% endif %}
-        </section>
-      {% endif %}
     </div>
 
     {% if doc.large_cta %}

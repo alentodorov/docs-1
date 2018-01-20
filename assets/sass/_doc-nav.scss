@@ -135,8 +135,11 @@
     }
 
     > a.section-name {
-      color: $color-ampblue;
-      font-size:  18px;
+      color: #000;
+      font-size:  14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
     &.expandable {
