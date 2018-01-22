@@ -84,6 +84,11 @@
           </amp-carousel>
         </div>
       </section>
+        {% if doc.case %}
+        <section class="case-study">
+          <div class="learn"><a class="button" href="{{doc.case.link_url}}">{{_(doc.case.title)}}</a></div>
+        </section>
+      {% endif %}
 
     </div>
 

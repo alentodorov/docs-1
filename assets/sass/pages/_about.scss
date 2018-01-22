@@ -1,4 +1,4 @@
-.about-overview {
+.about {
   .wrap {
     overflow: hidden;
     position: relative;
@@ -15,7 +15,7 @@
     }
   }
 
-  .about-overview-block {
+  .about-block {
     position: relative;
     z-index: 1;
   }
@@ -23,7 +23,7 @@
   .hero {
     margin: 100px 0 50px;
     position: relative;
-    padding: 30px 5% 30px 5%;
+    padding: 100px 5% 70px 5%;
 
     .images {
       position: absolute;
@@ -69,20 +69,13 @@
         max-width: 500px;
       }
     }
-    .intro-content {
-        a {
-          font-size: inherit;
-          text-transform: none;
-        }
-    }
   }
 
   .core {
     h2 {
       margin: 0 auto;
-      max-width: 600px;
+      max-width: 550px;
       text-align: center;
-      font-size: 40px;
     }
 
     amp-accordion {
@@ -147,14 +140,10 @@
   }
 
   .video {
-    margin: 100px auto;
+    margin: 200px auto;
     max-width: 800px;
     padding: 0 30px;
     position: relative;
-
-    p {
-      text-align: center;
-    }
 
     .line1 {
       position: absolute;
@@ -302,7 +291,7 @@
 
 
 
-.rtl.about-overview {
+.rtl.about {
   .hero {
     .images {
       right: 700px;

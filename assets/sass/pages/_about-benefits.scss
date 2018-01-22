@@ -143,9 +143,15 @@ body.about-benefits {
   .case-study {
     padding: 0 15.4% 115px 15.4%;
 
-    h3 {
-      margin-bottom: 45px;
+    div.learn {
+      margin-top: -45px;
       text-align: center;
+
+      a {
+        font-size: 20px;
+        text-transform: none;
+      }
+
     }
 
     .desktop .card {

@@ -1,0 +1,22 @@
+$title@: About
+$titles:
+  breadcrumb@: About AMP
+$order: 0
+class: about
+$view: /views/about.html
+
+components:
+  - youtube
+
+hero:
+  title@: Coming soon
+  triangle_img: herobg.svg
+  line1_img: herolines1.svg
+  line2_img: herolines2.svg
+  phone_img_base: /static/img/about/overview/what_phone
+  content: coming soon
+
+cta:
+  title: See what AMP can do for you
+  link_text: Learn who uses AMP
+  link_url: /content/learn/case-studies.html
