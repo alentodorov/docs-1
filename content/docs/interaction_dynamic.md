@@ -1,5 +1,5 @@
 ---
-$title@: Interactions & Dynamic content
+$title@: Interactivity & Dynamic content
 $order: 4
 $parent: /content/docs/build.md
 $view: /views/doc_grid.html

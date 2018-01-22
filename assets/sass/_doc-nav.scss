@@ -16,7 +16,7 @@
 
   .current-header {
     background: $gradient-anglebuild;
-    padding: 28px 30px 5px;
+    padding: 20px 30px 5px;
 
     h1 {
       color: $color-white;
@@ -71,14 +71,14 @@
     list-style-type: none;
   }
 
-  li.tutorial > a.section-name::before {
+  /*li.tutorial > a.section-name::before {
     content: url('/static/img/symbols/tutorial.svg');
     font-size: 10px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: -4px;
-  }
+  }*/
 
   li {
     background: none;
@@ -135,7 +135,6 @@
     }
 
     > a.section-name {
-      color: #000;
       font-size:  14px;
       font-weight: 400;
       text-transform: uppercase;

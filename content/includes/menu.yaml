@@ -9,7 +9,7 @@ menu:
       - href: /content/learn/about-how.yaml
         copy@: "How AMP Works"
       - href: /content/learn/use_cases.yaml
-        copy@: "Use Cases"
+        copy@: "Uses"
       - href: /content/learn/case-studies.html
         copy@: "Case Studies"
         collection: learn/case-studies/category
